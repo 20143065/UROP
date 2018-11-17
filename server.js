@@ -50,6 +50,7 @@ http.createServer(function (req, res) {
         time: "" + reqObj.time
     };
 
+      
     res.writeHead(200);
     res.end(JSON.stringify(resObj));
     console.log(reqObj);
